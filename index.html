@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<title>NFT preview card component</title>
+	<link rel="stylesheet" href="styles.css">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Equilibrium #3429
+	<main>
+		<div class="main-image">
+			<img class="image" id="main-image" alt="equilibrium image" src="images/image-equilibrium.jpg">
+		</div>
+		<h3 class="heading">Equilibrium #3429</h3>
+		<p class="info">Our Equilibrium collection promotes balance and calm.</p>
 
-  Our Equilibrium collection promotes balance and calm.
+		<div class="details">
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+			<div class="eth">
+				<img class="icon-ethereum" alt="ethereum icon" src="images/icon-ethereum.svg">
+				<span>0.041 ETH</span>
+			</div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+			<div class="clock">
+				<img class="icon-clock" alt="clock icon" src="images/icon-clock.svg">
+				<span>3 days left</span>
+			</div>
+
+		</div>
+
+		<div class="divider"></div>
+
+		<div class="footer">
+			<img class="avatar" alt="avatar" src="images/image-avatar.png">
+			<span class="footer-info">Creation of <a>Jules Wyvern</a></span>
+		</div>
+
+	</main>
+
 </body>
+
 </html>

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid black; */
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+	font-family: 'Outfit', sans-serif;
+}
+
+main {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	width: 30%;
+	padding: 15px;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 10px;
+	min-width: 218px;
+	max-width: 220px;
+}
+
+.main-image {
+	border-radius: 10px;
+}
+
+.main-image:hover {
+	background-color: hsl(178, 100%, 50%);
+	cursor: pointer;
+	z-index: 1;
+}
+
+#main-image {
+	width: 100%;	
+	border-radius: 10px;
+}
+
+.info {
+	font-size: 14px;
+	color: hsl(215, 51%, 70%);
+}
+
+.heading {
+	font-size: 100%;
+	margin: 20px 0;
+}
+
+.heading:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 11px;
+	margin: 20px 0;
+}
+
+.icon-ethereum,
+.icon-clock {
+	height: 13px;
+	margin-right: 5px;
+}
+
+.eth, .clock {
+	display: flex;
+	align-items: space-between;
+}
+
+.clock {
+	margin-right: 5px;
+}
+
+.eth span {
+	color: hsl(178, 100%, 50%);
+}
+
+.clock span {
+	color: hsl(215, 51%, 70%);
+}
+
+.divider {
+	width: 100%;
+	background-color: hsl(215, 32%, 27%);
+	height: 1px;
+	margin: 20px 0;
+}
+
+.footer {
+	margin-top: -10px;
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+	height: 19px;
+	border: 1px solid white;
+	border-radius: 100px;
+}
+
+.footer-info {
+	font-size: 	11px;
+	margin-left: 8px;
+	color: hsl(215, 51%, 70%);
+}
+
+.footer-info a {
+	color: white;
+}
+.footer-info a:hover {
+	cursor: pointer;
+	color: hsl(178, 100%, 50%);
+}
+
+
